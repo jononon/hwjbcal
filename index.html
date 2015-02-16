@@ -3,6 +3,8 @@
 <html>
   <head>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="Stylesheets/main.css"></link>
+    <title>HW Jazz Band</title>
     <style>
       mainhead {
         font-family: 'Roboto', sans-serif;
@@ -29,6 +31,55 @@
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
   </head>
+  %header.masthead
+  .brand-container
+    %a{:href => "#"}
+      %span.brand-initials HW
+      %span.brand-name Jazz Band
+  %nav
+    .nav-container
+      %div
+        %input#slider1{:name => "slider1", :type => "checkbox"}/
+        %label.slide.has-child{:for => "slider1"}
+          %span.element Calendar
+          %span.name Calendars and Upcoming Events
+        .child-menu
+          %a{:href => "#"} Recent
+          %a{:href => "#"} Archives
+          %a{:href => "#"} Categories
+      %div
+        %input#slider2{:name => "slider2", :type => "checkbox"}/
+        %label.slide.has-child{:for => "slider2"}
+          %span.element Music
+          %span.name Downloads and Streamable Content
+        .child-menu
+          %a{:href => "#"} Downloads
+          %a{:href => "#"} Youtube Playlist
+      %div
+        %input#slider3{:name => "slider3", :type => "checkbox"}/
+        %label.slide.has-child{:for => "slider3"}
+          %span.element Media
+          %span.name Images and Video
+        .child-menu
+          %a{:href => "#"} Images
+          %a{:href => "#"} Video
+      %div
+        %a.slide{:href => "#"}
+          %span.element Bulletin
+          %span.name Announcements and E-Mails
+      %div
+        %a.slide{:href => "#"}
+          %span.element About
+          %span.name Website Information
+  .social-container
+    %span
+      %a.social-roll.github{:href => "#"}
+    %span
+      %a.social-roll.twitter{:href => "#"}
+    %span
+      %a.social-roll.linkedin{:href => "#"}
+    %span
+      %a.social-roll.rss{:href => "#"}
   <mainhead>
     <div><center><b>Welcome to the <i>Harvard-Westlake Jazz Band</i> Calendars</b></center></div>
   </mainhead>
