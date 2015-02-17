@@ -1,0 +1,80 @@
+/*
+Error: Undefined mixin 'transition-property'.
+        on line 50 of /Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass, in `transition-property'
+        from line 50 of /Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass
+
+45: 
+46: 
+47:     // set base transition spees for all a and label elements in the menu
+48:     a, label
+49:         // all a elements
+50:         +transition-property(color)
+51:         +transition-duration(.2s)
+52:         +transition-timing-function(ease-in)
+53: 
+54:     // base styling for the sliding elements
+55:     .slide
+
+Backtrace:
+/Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass:50:in `transition-property'
+/Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass:50
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:98:in `with_mixin'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/jonathandamico/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transition-property'.\A         on line 50 of /Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass, in `transition-property'\A         from line 50 of /Users/jonathandamico/Documents/9th Grade/Band/hwjbcal/main.sass\A \A 45: \A 46: \A 47:     // set base transition spees for all a and label elements in the menu\A 48:     a, label\A 49:         // all a elements\A 50:         +transition-property(color)\A 51:         +transition-duration(.2s)\A 52:         +transition-timing-function(ease-in)\A 53: \A 54:     // base styling for the sliding elements\A 55:     .slide"; }
