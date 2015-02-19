@@ -113,6 +113,10 @@ nav a {
 }
  /* STYLES */
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 headingone {
 	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
