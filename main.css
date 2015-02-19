@@ -37,7 +37,7 @@ body {
   margin: 0;
 }
 .nav li {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
@@ -70,13 +70,13 @@ body {
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline */
+  /* Option 1 - Display Inline 
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
- 
-  /* Options 2 - Float
+ */
+  /* Options 2 - Float */
   .nav li {
     float: left;
   }
@@ -88,7 +88,7 @@ body {
   .nav {
     background-color: #444;
   }
-  */
+ 
 }
 /* NAV */
 nav {
