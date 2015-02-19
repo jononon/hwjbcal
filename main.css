@@ -28,6 +28,9 @@ body {
   padding: 0;
   background: #ccc;
 } */
+p {
+	margin: 80%;
+}
  
 .nav ul {
   list-style: none;
@@ -115,6 +118,7 @@ nav a {
 
 body {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 headingone {
